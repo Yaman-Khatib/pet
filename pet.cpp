@@ -34,6 +34,13 @@ int main() {
 
     my_pet.play_with_pet();
 
+    // Feed the pet
+    my_pet.eat();
+    // Print the pet name and energy level
+    cout << "Pet Name: " << my_pet.name << endl;
+    cout << "Energy Level: " << my_pet.energy_level << endl;
+
+    my_pet.eat();
     // Print the pet name and energy level
     cout << "Pet Name: " << my_pet.name << endl;
     cout << "Energy Level: " << my_pet.energy_level << endl;
